@@ -150,10 +150,6 @@ class OddballParticle extends Particle
   }
   }
 
-void mousePressed(){
-  d = -1;
-}
-
-void mouseReleased(){
-  d = 1;
+void mouseClicked(){
+  d = -d;
 }
